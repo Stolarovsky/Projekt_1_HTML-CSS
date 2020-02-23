@@ -1,0 +1,125 @@
+/* ================== MAIN STYLES ================== */
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ================== NAVIGATION ================== */
+
+nav {
+    text-align: center;
+    background-color: #96B826;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li button {
+    padding: 5px 20px 5px 20px;
+    color: #96B826;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ================== BANNER ================== */
+
+aside {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    width: 100%;
+}
+
+
+/* ================== ARTICLE ================== */
+
+article {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #54504f;
+    color: white;
+}
+
+.column {
+    padding: 30px;
+}
+
+article h2 {
+    color: #96B826;
+    margin-bottom: 5px;
+}
+
+article p a {
+    color: #96B826;
+    text-decoration: none;
+}
+
+#author {
+    margin-top: 100px;
+    background-image: url("assets/avatar.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100px;
+    padding-left: 110px;
+}
+
+
+/* ================== IMAGES ================== */
+
+#images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f4f4f4;
+    background: radial-gradient(circle, rgba(244, 244, 244, 1) 0%, rgba(239, 239, 239, 1) 50%, rgba(#EBEBEB, 1) 100%);
+}
+
+
+/* ================== FOOTER ================== */
+
+footer {
+    margin: 0;
+    padding: 5px 50px 30px 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    background-color: #96B826;
+    color: white;
+}
+
+footer div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 10px;
+}
+
+footer h4 {
+    font-size: 15px;
+    margin: 10px 0px 0px 0px;
+}
+
+footer h4 i {
+    font-size: 25px;
+}
